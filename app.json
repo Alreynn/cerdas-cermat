@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "cermat",
-    "slug": "cermat",
+    "slug": "cerdas-cermat",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -36,7 +36,18 @@
     ],
     "experiments": {
       "typedRoutes": true,
-      "reactCompiler": true
-    }
+      "reactCompiler": false
+    },
+    "extra": {
+      "router": {
+        "asyncRoutes": {
+          "web": true
+        }
+      },
+      "eas": {
+        "projectId": "b300f71c-a2d3-4963-9e2b-4c4d834a858f"
+      }
+    },
+    "owner": "alreynn"
   }
 }
